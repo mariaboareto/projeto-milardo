@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra-navegacao {
+    background-color: #FFECD1;
+}
+
+#barra-navegacao li a {
+    color: #8e4700;
+    transition: all 0.5s;
+}
+
+#barra-navegacao li a:hover {
+    color: #ff8001;
+}
+
+#barra-navegacao button {
+    background-color: #8e4700;
+    border-radius: 8px;
+    color: #FFF;
+}
