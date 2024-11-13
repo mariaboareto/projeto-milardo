@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html,body {
+    overflow-x: hidden;
+}
+
 .barra-navegacao {
     background-color: #FFECD1;
 }
@@ -22,4 +26,94 @@
     background-color: #8e4700;
     border-radius: 8px;
     color: #FFF;
+    transition: all 0.5s;
 }
+
+#barra-navegacao button:hover {
+    background-color: #ff8001;
+}
+
+footer {
+    background: black;
+    height: 100px;
+}
+
+footer p {
+    color: #fff;
+}
+
+#home {
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+}
+
+#home h1 {
+    color: #fff;
+}
+
+#home button {
+    background-color: #F07C00;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+#home button:hover {
+    background-color: #FFBF75;
+}
+
+#sobre {
+    background-color: #FFECD1;
+}
+
+#sobre .paragrafo-sobre-1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #8e4700;
+    margin-bottom: 20px;
+}
+
+#sobre .paragrafo-sobre-2 {
+    font-size: 20px;
+    color: #553311;
+    margin-bottom: 20px;
+}
+
+#sobre .paragrafo-sobre-2 span {
+    font-weight: bold;
+    color: #8e4700;
+}
+
+#sobre .paragrafo-sobre-3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #663300;
+    margin-bottom: 20px;
+} 
+
+.lista-atividade {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista-atividade li {
+    font-size: 18px;
+    color: #553311;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.lista-atividade li span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #8e4700;
+}
+
+
